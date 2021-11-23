@@ -11,7 +11,7 @@ jobs:
 
     strategy:
       matrix:
-        yarn-version: [15.x]
+        yarn-version: [16.x]
 
     steps:
       - name: Checkout
